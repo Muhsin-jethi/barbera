@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
   min-height: 100vh;
+  background: #11120F;
+  font-family: 'Poppins' sans-serif;
 }
+
 
 .description {
   display: inherit;
