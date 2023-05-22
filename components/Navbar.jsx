@@ -36,7 +36,7 @@ const Navbar = () => {
                <Box>
                     {
                          ['Home', 'About Us', 'services', 'Contact', 'Get the App'].map((link, index) => (
-                              <Link _hover={{color: '#FBB034', transition: 'all .3s ease'}} key={index} color='#fff' marginRight='20px'>{link}</Link>
+                              <Link _hover={{color: '#FBB034', transition: 'all .3s ease'}} key={index} color='#fff' marginRight='30px'>{link}</Link>
                          ))
                     }
                </Box>

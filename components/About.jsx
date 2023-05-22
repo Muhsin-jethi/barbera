@@ -7,7 +7,7 @@ import Img01 from '../public/image01.png'
 
 const About = () => {
   return (
-    <Flex width='100%' bg='#202125' p='0 60px' height='485px' alignItems='center' justifyContent='flex-start'>
+    <Flex width='100%' bg='#202125' p='0 60px' flexWrap='wrap' height='485px' alignItems='center' justifyContent='flex-start'>
           <Box marginRight='100px'>
                <Image style={{objectFit: 'cover'}} src={Img01} />
           </Box>
