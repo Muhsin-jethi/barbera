@@ -6,6 +6,8 @@ import { Stack, Box } from '@chakra-ui/react'
 import HeroBanner from '@/components/HeroBanner'
 import About from '@/components/About'
 import Services from '@/components/Services'
+import  ServiceSub  from '@/components/subs/ServiceSub'
+import Clients from '@/components/Clients'
 
 export default function Home() {
 
@@ -35,11 +37,15 @@ export default function Home() {
       body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy "
     }
   ]
+
+  
   return (
     <Box className={styles.main}>
       <HeroBanner />
       <About />
       <Services data={services}/>
+      <ServiceSub />
+      <Clients />
     </Box>
   )
 }

@@ -1,0 +1,42 @@
+[
+     {
+          "id": "1",
+          "title": "Hair Styling",
+          "price": "200"
+     },
+     {
+          "id": "2",
+          "title": "Hair Wahing",
+          "price": "400"
+     },
+     {
+          "id": "3",
+          "title": "Body Massage",
+          "price": "500"
+     },
+     {
+          "id": "4",
+          "title": "Thai Massage",
+          "price": "300"
+     },
+     {
+          "id": "5",
+          "title": "Beauty Spa",
+          "price": "400"
+     },
+     {
+          "id": "6",
+          "title": "Styish Shaving",
+          "price": "400"
+     },
+     {
+          "id": "7",
+          "title": "Hair Colouring",
+          "price": "500"
+     },
+     {
+          "id": "8",
+          "title": "Moustache Trim",
+          "price": "300"
+     }
+]
